@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+header {
+    background-color: #000B03;
+    max-width: 1000px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    /* background-color: #005717; */
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.sub-menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: #000B03;
+    border-radius: 0px 0px 10px 10px;
+    top: 45px;
+    left: 0;
+    width: 160px;
+}
+
+.sub-menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu .menu-drop {
+    position: relative;
+}
+
+.menu-drop:hover .sub-menu{
+    display: block;
+}
+
+.pesquisar form input {
+    padding: 3px;
+    font-family: roboto, sans-serif;
+    font-size: 0.8rem;
+}

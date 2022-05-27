@@ -1,0 +1,34 @@
+.personagens-principais h2{
+    margin-top: 25px;
+}
+
+h2 {
+    padding: 10px 20px;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.principais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personagens-secundarios ul{
+    border-radius: 15px;
+    background-color: #5EAA7A;
+    padding: 20px;
+}
+
+.personagens-secundarios h2 {
+    margin-top: 40px;
+}
+
+.personagens-secundarios ul li {
+    padding: 10px 0px;
+    margin-left: 20px;
+    text-align: justify;
+}

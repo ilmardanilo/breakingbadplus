@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    align-items: center;
+}
+
+main ul {
+    padding: 20px;
+}
+
+main ul li{
+    padding: 5px;
+}
+
+main ul li a{
+    font-family: roboto, sans-serif;
+    text-decoration: none;
+}
+
+main ul li a:hover{
+    text-decoration: underline;
+}

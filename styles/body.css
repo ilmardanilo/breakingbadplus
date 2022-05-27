@@ -1,0 +1,38 @@
+body {
+    box-shadow: 3px 3px 10px;
+    background-color: #000B03;
+}
+
+main {
+    padding: 20px;
+    background-color: #f0f0f0;
+    max-width: 1000px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 20px;
+    margin: 20px;
+}
+
+img {
+    align-items: center;
+}
+
+footer {
+    background-color: #2C2C2C;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
